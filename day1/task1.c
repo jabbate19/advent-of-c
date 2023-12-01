@@ -27,6 +27,7 @@ int main(int argc, char *argv[]) {
         }
         total += (first*10) + last;
     }
+    printf("total %lu\n", total);
     fclose(file);
     return 0;
 }
