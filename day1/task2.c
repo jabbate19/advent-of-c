@@ -15,7 +15,6 @@ char *trim(char* line, int size) {
 
 int getFromText(char *line, int i) {
     char *test = trim(line+i, 3);
-    printf("test 3 %s\n", test);
     if (strcmp(test, "one") == 0) {
         return 1;
     }
